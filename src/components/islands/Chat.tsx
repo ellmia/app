@@ -243,7 +243,7 @@ export default function Chat() {
     <div className="chat-container">
       {/* Header - ChatGPT minimal */}
       <div className="chat-header flex items-center justify-between">
-        <div className="text-[17px] font-semibold tracking-[-0.2px]">エルミア</div>
+        <div className="text-[17px] font-semibold tracking-[-0.2px]">LMIA</div>
         <button
           onClick={reset}
           className="clear-btn"
