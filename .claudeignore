@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+
+# Astro
+.astro/
+dist/
+
+# Cloudflare
+.wrangler/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
+
+# Project specific
+spec*.md
+*.log

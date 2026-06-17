@@ -1,0 +1,11 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Chat from '@/components/islands/Chat.tsx';
+import '@/styles/global.css';
+---
+
+<Layout>
+  <main class="min-h-[100dvh] bg-white text-[#111]">
+    <Chat client:only="react" />
+  </main>
+</Layout>

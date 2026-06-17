@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx astro *)",
+      "Bash(npx wrangler *)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(git push origin *)",
+      "Bash(ln -s *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)"
+    ]
+  },
+  "customInstructions": "This project is HostOrch: an Astro 6 + Cloudflare Workers chat UI for a consultant persona (イケメンホスト for ソープ嬢). Use OpenRouter for streaming chat. Follow the conventions in architecture.md, README.md, and AGENTS.md. After any code changes, always run `npm run check` then `npm run build`. The main files are in src/ with React islands for the chat UI. Use Japanese for user-facing content and comments where appropriate."
+}

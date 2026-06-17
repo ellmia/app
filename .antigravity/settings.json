@@ -1,0 +1,3 @@
+{
+  "customInstructions": "This project is HostOrch: an Astro 6 + Cloudflare Workers chat UI for a consultant persona (イケメンホスト for ソープ嬢). Use OpenRouter for streaming chat. Follow the conventions in architecture.md, README.md, and AGENTS.md. After any code changes, always run `npm run check` then `npm run build`. The main files are in src/ with React islands for the chat UI. Use Japanese for user-facing content and comments where appropriate."
+}

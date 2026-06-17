@@ -1,0 +1,16 @@
+name = "chat"
+compatibility_date = "2026-06-08"
+
+# Public vars (if any) go in [vars]. Secrets use `wrangler secret put`
+# OPENROUTER_API_KEY  (required, secret)
+# LLM_MODEL (optional override)
+
+[vars]
+# No public vars needed for MVP (all LLM config is secret/runtime)
+
+# For local dev with platformProxy you can also use .dev.vars
+# (see README)
+
+# Observability
+[observability]
+enabled = true
