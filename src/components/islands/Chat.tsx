@@ -257,8 +257,8 @@ export default function Chat() {
       <div className="messages" id="messages">
         {messages.length === 0 && (
           <div className="max-w-[340px] mx-auto pt-8 pb-6 text-center px-2">
-            <div className="text-3xl mb-2.5">🕴️</div>
-            <div className="text-[21px] font-semibold tracking-tight mb-1.5">ホストーチです。</div>
+            <div className="text-3xl mb-2.5">🦄</div>
+            <div className="text-[21px] font-semibold tracking-tight mb-1.5">エルミアです。</div>
             <p className="text-[#555] text-[13.5px] leading-relaxed mb-5">
               ソープの仕事で困ってることを、<br />遠慮なく話して。
             </p>

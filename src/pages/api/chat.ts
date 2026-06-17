@@ -55,7 +55,7 @@ function getHostDisplayName(model: string): string {
   }
 
   // Fallback keeps the persona
-  return 'ホストーチ';
+  return 'エルミア';
 }
 
 /**
