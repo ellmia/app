@@ -321,7 +321,7 @@ export default function Chat() {
         {isStreaming && messages[messages.length - 1]?.content === '' && (
           <div className="message assistant">
             <span className="loading">
-              あなたの卓についています<span className="dot">.</span><span className="dot">.</span><span className="dot">.</span>
+              あなたの相談に乗っています<span className="dot">.</span><span className="dot">.</span><span className="dot">.</span>
             </span>
             {messages[messages.length - 1]?.hostName && (
               <div className="host-signature">— {messages[messages.length - 1].hostName}</div>
@@ -435,7 +435,7 @@ export default function Chat() {
         )}
 
         <div className="disclaimer">
-          ホスト達は卓につかなかったり、酔っ払っていることがあります。
+          ユニコーン達は遊んでいたり、酔っ払っていることがあります。
         </div>
       </div>
     </div>
