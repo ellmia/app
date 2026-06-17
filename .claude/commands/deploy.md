@@ -9,6 +9,6 @@ Steps:
 3. Build: `npm run build`
 4. Confirm with user if ready to deploy
 5. Deploy: `npm run deploy`
-6. Verify at https://chat.hostorch.workers.dev
+6. Verify at https://app.lmia.workers.dev
 
 Note: Secrets like OPENROUTER_API_KEY and LLM_MODEL must be set via `wrangler secret put` in the Cloudflare dashboard or CLI.

@@ -16,6 +16,6 @@ Deployment target is Cloudflare Workers using the Astro Cloudflare adapter (`out
 
 ## Environment
 
-wrangler.toml has `name = "chat"` so the URL is chat.hostorch.workers.dev
+wrangler.toml has `name = "app"` so the URL is app.lmia.workers.dev
 
 Always confirm the correct worker name before secret or deploy commands.

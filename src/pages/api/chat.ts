@@ -164,7 +164,7 @@ export const POST: APIRoute = async ({ request }) => {
   const hostName = getHostDisplayName(model);
 
   const referer =
-    (import.meta.env as any)?.PUBLIC_SITE_URL || 'https://chat.hostorch.workers.dev';
+    (import.meta.env as any)?.PUBLIC_SITE_URL || 'https://app.lmia.workers.dev';
 
   try {
     const upstreamRes = await fetchWithTimeout(
@@ -175,7 +175,7 @@ export const POST: APIRoute = async ({ request }) => {
           Authorization: `Bearer ${apiKey}`,
           'Content-Type': 'application/json',
           'HTTP-Referer': referer,
-          'X-Title': 'Hostorch',
+          'X-Title': 'エルミア',
         },
         body: JSON.stringify({
           model,

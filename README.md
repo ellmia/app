@@ -1,4 +1,4 @@
-# Hostorch
+# エルミア
 
 イケメンホストによるソープ嬢（風俗嬢）向けの実践コンサルタントチャット。
 
@@ -17,7 +17,7 @@
 - TypeScript strict + `@/*` alias
 - OpenRouter (`/api/chat` でプロキシ + SSE stream pass-through)
 
-デプロイ: `wrangler deploy` → `https://chat.hostorch.workers.dev`
+デプロイ: `wrangler deploy` → `https://app.lmia.workers.dev`
 
 ## 開発
 
@@ -90,4 +90,4 @@ src/
 
 ---
 
-This project follows the exact conventions of the sibling `ai` (Astro 6 + CF) and `paperlevels` (Workers + server output + API routes) projects in the same workspace.
+This project follows the exact conventions of the sibling `ai` (Astro 6 + CF) and `paperlevels` (Workers + server output + API routes) projects in the same workspace.ut + API routes) projects in the same workspace.

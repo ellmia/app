@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://chat.hostorch.workers.dev',
+  site: 'https://app.lmia.workers.dev',
   output: 'server',
   adapter: cloudflare(),
   integrations: [react()],

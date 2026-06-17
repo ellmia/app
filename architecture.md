@@ -1,8 +1,8 @@
-# Hostorch Architecture
+# エルミア Architecture
 
 ## Overview
 
-Hostorch is a minimal, production-focused chat Web UI where an "イケメンホスト" (handsome host) persona acts as a practical consultant for ソープ嬢 (soapland workers). It provides real-world advice on client acquisition, pricing, safety, mental health, and business decisions using streaming LLM responses via OpenRouter.
+エルミア (Ellmia) is a minimal, production-focused chat Web UI where an "イケメンホスト" (handsome host) persona acts as a practical consultant for ソープ嬢 (soapland workers). It provides real-world advice on client acquisition, pricing, safety, mental health, and business decisions using streaming LLM responses via OpenRouter.
 
 The project follows the exact multi-agent coding and project conventions used across the workspace (Astro 6 + Cloudflare Workers pattern from `ai` and `paperlevels`).
 
@@ -16,7 +16,7 @@ The project follows the exact multi-agent coding and project conventions used ac
 | LLM | OpenRouter (chat completions with stream:true) |
 | Persona | Hardcoded high-quality system prompt in Japanese (gentlemanly cool host tone) |
 | Secrets | Astro env schema + wrangler secrets (OPENROUTER_API_KEY, LLM_MODEL) |
-| Deploy | `wrangler deploy` (worker name: "chat") → https://chat.hostorch.workers.dev |
+| Deploy | `wrangler deploy` (worker name: "app") → https://app.lmia.workers.dev |
 
 ## Repository Layout
 
@@ -39,7 +39,7 @@ src/
     Layout.astro
   env.d.ts                      # Type declarations for cloudflare:workers (legacy) + astro env
 
-wrangler.toml                   # name = "chat"
+wrangler.toml                   # name = "app"
 astro.config.mjs                # server output + cloudflare adapter + env schema
 ```
 
@@ -70,7 +70,7 @@ astro.config.mjs                # server output + cloudflare adapter + env schem
 
 ## Deployment
 - `npm run deploy` = check + build + wrangler deploy
-- Worker name "chat" produces the chat.hostorch.workers.dev URL
+- Worker name "app" produces the app.lmia.workers.dev URL
 - Observability enabled in wrangler.toml
 
 ## Development Rules (from AGENTS.md / workspace)

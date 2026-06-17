@@ -1,35 +1,28 @@
-# soapy サブスクリプション仕様・実装計画
+# エルミア サブスクリプション仕様・実装計画
 
 > **作成日**: 2026-06-16  
 > **ステータス**: 計画（未実装）  
-> **サービス名**: **soapy**（全て小文字）— 変更予定（旧称: Hostorch）  
+> **サービス名**: **エルミア**
 > **親仕様**: [spec.md](./spec.md)  
 > **戦略根拠**: [GTM-PMF-strategy.md](./GTM-PMF-strategy.md) §6 プライシング  
 > **前提**: Phase 1（完全無料）の PMF シグナル取得後に着手する
 
 ---
 
-## 0. サービス名変更（soapy）
-
-ユーザー向けブランド名を **Hostorch** から **`soapy`**（全て小文字）へ変更する予定。
+## 0. サービス識別子
 
 | 区分 | 表記 | 備考 |
 |---|---|---|
-| サービス名（ユーザー向け） | **soapy** | UI・X・Stripe 商品名・アンケート文など |
-| 表記ルール | 常に小文字 `soapy` | `Soapy` / `SOAPY` / `SoaPy` は使わない |
-| リポジトリ名 | `hostorch`（現状維持） | コード移行は別タスク |
-| 技術識別子 | `hostorch-db` 等（暫定） | D1・Cookie 名などは実装時に `soapy-*` へ寄せるか、移行時に一括リネーム |
+| サービス名（ユーザー向け） | **エルミア** | UI・X・Stripe 商品名・アンケート文など |
+| リポジトリ | `https://github.com/ellmia/app` | |
+| 本番 URL | `https://app.lmia.workers.dev` | Worker 名: `app` |
+| 技術識別子 | `ellmia-db` 等 | D1・Cookie 名などは `ellmia-*` で統一 |
 
-**本仕様書内の `Hostorch` 表記**
-
-- §6 Stripe Product 名など、**未実装・未作成**の項目は実装時に **soapy** で作成する
-- 既存の技術用語（`hostorch_session` 等）は Phase 2 実装 PR で `soapy` に合わせて更新する
-
-**実装時に soapy へ揃えるもの**
+**実装時にエルミアへ揃えるもの**
 
 - チャット UI のロゴ・タイトル・メタタグ
 - `/pricing`・`/account` の表示名
-- Stripe Dashboard の Product 表示名（例: `soapy Standard`）
+- Stripe Dashboard の Product 表示名（例: `エルミア Standard`）
 - メール件名・マジックリンク文言
 - OpenRouter `X-Title` ヘッダー（`chat.ts`）
 
@@ -129,7 +122,7 @@ GTM 戦略で定義した **フリーミアム（Phase 2）** と **ティア拡
 ```toml
 [[d1_databases]]
 binding = "DB"
-database_name = "hostorch-db"
+database_name = "ellmia-db"
 database_id = "<作成後に記入>"
 
 [[kv_namespaces]]
@@ -214,7 +207,7 @@ CREATE TABLE weekly_summaries (
 
 1. `POST /api/auth/request-link` — `{ email }` を受け取り、トークン生成・メール送信
 2. ユーザーが `GET /api/auth/verify?token=...` をクリック
-3. 検証成功 → HttpOnly Cookie `soapy_session`（JWT、7 日）を Set
+3. 検証成功 → HttpOnly Cookie `ellmia_session`（JWT、7 日）を Set
 4. `GET /api/auth/me` — 現在の `{ userId, email, tier, usage }` を返す
 
 ### 5.2 未ログイン時の扱い（移行期）
@@ -239,10 +232,10 @@ CREATE TABLE weekly_summaries (
 
 | Stripe Product | Price ID（例） | 金額 |  interval |
 |---|---|---|---|
-| soapy Standard | `price_standard_monthly` | ¥980 | month |
-| soapy Standard Annual | `price_standard_yearly` | ¥9,800 | year |
-| soapy Premium | `price_premium_monthly` | ¥1,980 | month |
-| soapy Premium Annual | `price_premium_yearly` | ¥19,800 | year |
+| エルミア Standard | `price_standard_monthly` | ¥980 | month |
+| エルミア Standard Annual | `price_standard_yearly` | ¥9,800 | year |
+| エルミア Premium | `price_premium_monthly` | ¥1,980 | month |
+| エルミア Premium Annual | `price_premium_yearly` | ¥19,800 | year |
 
 ### 6.2 API エンドポイント
 
@@ -552,7 +545,7 @@ Premium の有料モデルは **コストと品質の差別化軸** として必
 ## 17. 次のアクション（実装開始時）
 
 1. Stripe テストモードで Product / Price を 4 件作成し、Price ID を `.env` に記録
-2. `wrangler d1 create hostorch-db` → マイグレーション PR-1
+2. `wrangler d1 create ellmia-db` → マイグレーション PR-1
 3. Phase 2-A（usage + chat 統合）を **決済なし** で先行リリースし、8 msg/日の UX を検証
 4. PMF Go 条件を満たした週に Phase 2-B（認証）→ 2-C（Stripe）へ進む
 
