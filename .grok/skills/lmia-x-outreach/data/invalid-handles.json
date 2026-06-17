@@ -1,0 +1,1041 @@
+[
+  {
+    "handle": "@tsumutsumu0201",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "retired_post",
+    "displayName": "つむぎ",
+    "source": "manual",
+    "note": "引退ポスト確認 (2026-06-17-3)"
+  },
+  {
+    "handle": "@n___t___0417",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "stale_post",
+    "displayName": "ゆの",
+    "source": "manual",
+    "note": "最新ポスト2022年 (2026-06-17-3)"
+  },
+  {
+    "handle": "@marichanoppai",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "suspended",
+    "displayName": "天華",
+    "source": "manual",
+    "note": "凍結 (2026-06-17-3)"
+  },
+  {
+    "handle": "@ranranseirachan",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "post_unavailable",
+    "displayName": "らんらん",
+    "source": "manual",
+    "note": "ポスト削除 (2026-06-17-3)"
+  },
+  {
+    "handle": "@ohina_fuyajyo",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "suspended",
+    "displayName": "ひなこ",
+    "source": "manual",
+    "note": "凍結 (2026-06-17-3)"
+  },
+  {
+    "handle": "@mint_1stclass",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "post_unavailable",
+    "displayName": "みんと",
+    "source": "manual",
+    "note": "ポスト削除 (2026-06-17-3)"
+  },
+  {
+    "handle": "@platinum_riko",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "post_unavailable",
+    "displayName": "リコ",
+    "source": "manual",
+    "note": "ポスト削除 (2026-06-17-3)"
+  },
+  {
+    "handle": "@nattochan10",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "suspicious_account",
+    "displayName": "SARINA",
+    "source": "manual",
+    "note": "乗っ取り疑い (2026-06-17-3)"
+  },
+  {
+    "handle": "@venus_koyuki",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "post_unavailable",
+    "displayName": "こゆき",
+    "source": "manual",
+    "note": "ポスト削除 (2026-06-17-3)"
+  },
+  {
+    "handle": "@ena__omi",
+    "invalidAt": "2026-06-17T00:00:00.000Z",
+    "reason": "suspended",
+    "displayName": "えな",
+    "source": "manual",
+    "note": "凍結 (2026-06-17-3)"
+  },
+  {
+    "handle": "@mochix2_v",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "かりん💐🤍はいちゅ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mume_jo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "🪽無名ちゃん🪽",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@makeruna_moon",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "女スカウト🌙るな",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@u__chacha_n",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "う🐱",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@meru_nyan11",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "める🎀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@fuji_nenene",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "ねね🍊栄町ふじ🛀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@chikachan_5",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "ちか˙˚ʚ🐣ɞ˚˙",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@rs_spec2_aoi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "渋谷さん大阪/メンエス/メンズエステ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@0711__0210",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "れいん˙˚𓆩✞𓆪˚˙",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@rikunonichijou",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "りく🩵SPEC2",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@lomol08",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "りょう♡Я`sEVOL",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mashiro_awa",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "ましろ👼🏻🤍",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ramen__fuji",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "千葉栄町ふじ🛁ひとみん🍜",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@_1810619_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🤍しゅうか🤍",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ap1_nb1",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "千葉🌷三浦屋本館かなで🫶🏽🐼",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sana_ikilove",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "さら",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@miku_fuji_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "栄町ふじ🧸みく🎀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuiyui__jasmine",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "💙宇佐美ゆいか🖤",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mokapi_0122",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "もか🎀鎌倉御殿",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kanano_701",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "かなの【Я`sEVOL】",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@alc_karina_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "かりな🍼アラカルト",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@milk154649",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "みるく🍼吉原・マティーニ🍸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@hinagiku_rs",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ひなぎく🌸アールズ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@x_nonochan_x",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🌼ののちゃん🌼",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@0218_mizuki",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "💋みづき💋千葉栄町Я′sSPEC2♡",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@hichu_momoka",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "momoka🍑ハイチュッ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@awaawahime7",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "なな🐼アールズ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kspse2",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "モモ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@5117369_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "🐶",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuria_s_154",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "🤞🤞",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mb_rn07",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🍻レナ🍻栄町マリンブルー",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sumire11e",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "マットサキュバス😈💜すみれ@clubego",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ha_yami_35sb",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "早見🌷横浜高級🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@renge_rsspec2",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "れんげちゃん🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@runachan_chu3",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "るな🌙",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@maaaaayuu5",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "みくにゃん🐰🫧三浦屋別館🩵",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sinohu_0920",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "🦋栄町ふじ🦋しのぶ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@minami_chiba_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "みなみ🛁出勤は不定期",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ui____s2",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "うい@マリンブルー千葉",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sekaicyan_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "セカイ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@hono_ebi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ほの",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@22mopk_c",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🎀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kyo_maharaja",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "一ノ瀬杏🍭💕千葉マハラジャ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@maaya__0922",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "まあや🩵",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kasumi_maha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "かすみでした",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@tyukino__himitu",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "せつな",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@cote__19",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "Riona🎀千葉鎌倉御殿",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@scout_ichihashi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "栄光の一橋【岡山のスカウト】",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ikinari_an",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "あん",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@chaleur_nami",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "奈美♡千葉栄町シャルール",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@arakaruto_yuuki",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "アラカルト🫧ゆうき",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@vegas_momo_tg",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "Vegas🍑モモ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mnmn_bunny",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ねこ🐱🐾",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kirakirari_s",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "姫川きらり💎",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@__arisa_chan__",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ありさ🩵稲毛🛁",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ramram_evol",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "らむ🐯💗R'sEVOL",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@airu_jojo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "脳バグ超大量潮吹き🐳💦",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yumena__0902",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "ゆめな♡シャルール",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@_hime328_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "⚜️天然𝑰𝒄𝒖𝒑のひめか⚜️吉原女帝",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@akai_mau",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "赤い♡屋根/まゆ🛁",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@alacarte0213",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🍀Mizuki🍀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mika_xo3",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "みか💎稲毛ソープ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@shion_syabon",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "しおん🐰",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@nemoto_maya",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "まや💜松戸根本🩷池袋角海老",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sana_therich",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "sanaTHERICH🛁千葉",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@rnyanpasu",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "れんげちゃん🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@miuraya_nooonnn",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "のん💙千葉三浦屋本館",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@zeroreika777",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "れいか💋🧸*。ZERO千葉栄町",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@aiai3_5_8xoxo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "愛菜",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@maaayu_u___",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "まゆ🐶💘シルクハット",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@icup__ajuna",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "𝑰汁あじゅな🍑栄町マハラジャ🕌❤️",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@non_alacarte",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "のん",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@chaleurmanatsu",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "chaleur🌞真夏",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@chiba_ebi_yumi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "千葉三浦屋🦐ゆみ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@natsumeee_mb",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🌸なつめ🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@manac_silk",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "まな",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@polaris_ema1",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "えま💛🌟🥞池袋Polaris角海老🛁",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuuun_d_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "ゆん🤍🫧Я’s",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@aminyamunyamu",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🐇♥️",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@momonga__722",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "🎀",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@uraran_eleet",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "うらん",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@chaleur_tomomi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "智美🐳Chaleur",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ayu3_alacarte",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "あゆみ🫧無事生還",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@rina_kitty61",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "りな🍑福原マダムロイヤル",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@akari_ginbasha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "桜華アカリ🌸アマテラス",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@kaayanon",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "かやの💚神戸マダムロイヤル",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@epi_quu",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "せつな🍒",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@akina_s05",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "佐藤明奈❤️AZITO,V.I.P",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mari__suzu_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "涼宮まりん🩵銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@namaewaerii",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "内永エリ☁️銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@awabathnoryo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "野良猫(りょう)🐱 🛁元福原高級🛁 包みこむ癒し甘サド小悪魔嬢👸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@aitan_2222",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "石川あい💕福原人妻ナースちゃん🛁",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuki_hoshino01",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "星野ユキ🩵福原F-1club🛁🫧",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@arrow_sana",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "椿さな🐱🫧ARROW",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mao_tpg",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "まお",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@a_m_i_000",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "あみ💜福原エピソードACE",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@saki_pochaike",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "さき🐥ぽちゃイケ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuki_hoshino_f1",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "星野ユキ🩵福原F-1club🛁",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuiyui_saint",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "園崎ゆい‎🤍セントエミリオン",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@huwari_ginbasha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "恋雪　フワリ💓❄️@銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@pocha0393",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "本城りな🫧F1club/皇帝別館🫧",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@jun0601junjun",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "J",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@r__09__k",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "葵 リカ@福原Amateras",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@aa_aaxkbe",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "。",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mai_hanahana",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "まい🌼神戸マダムロイヤル",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@himari_zone",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ひまり福原＆ZONE",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ama_ne2nd",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "💥天音硝子💥",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@wasureenuhito32",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "忘れ得ぬ人‥蜜🌈福原GOOD",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@reina_momomo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "🦄🌈百瀬れいな福原AZITO,V.I.P.🌈🦄",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@jojo_hisho",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "空条倫👩🏻‍💼秘書⭐️出勤情報⭐️",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@tsukiakari_good",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "ツキアカリ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@hs_hkrii",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🤍",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@gan7213",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "☀️",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuzusan_dayo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "柚(ゆず)🛁@福原クラブロイヤル",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mitsu_thewhite",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "みつでした",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yuru_mdolls",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "ゆる",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ao_andzone",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "あお💙福原＆ZONE",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@himari_252",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "ひまり🌻F-1club福原",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@tanaka_kansai",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "大阪在籍に詳しすぎる田中",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@o_yumi_sh",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "YM",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@zonelala__",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "らら🌙福原ZONE🫧",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@china2_oku3",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "奥鉄オクテツ大阪♡ちなつ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@ty_ginbasha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "藍咲ツユ☔️福原銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@e_rin_oo",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "えりの👑だった人",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@engel_ginbasha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "天使サナ👼🏻🤍銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@shimizu_asahi",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "神戸妻💋清水あさひ",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@utauta_a_",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "♡響乃うた🎠銀馬車♡",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@airi_teiku",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "あいり＠ていくぷらいど学園",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@koun_good",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "GOOD🌈幸運さん🍀🐳",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@mone_ginbasha",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "春風モネ🌸銀馬車",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@sayaka_am",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "鮮度不足: 直近90日以内のポストなし",
+    "displayName": "福原アマテラス🌸白鳥早也花🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@aika_arrow",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🐱",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@fssh_saku",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "🌸",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@123q_yui24",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "凍結: 凍結アカウント",
+    "displayName": "Jカップ🌸春風ゆい🌸🛁福原123Q💗",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@yukino_amateras",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "天使ゆきの❄️福原アマテラス",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@zarigani1278",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "りん",
+    "source": "generate-outreach"
+  },
+  {
+    "handle": "@zone_alice",
+    "invalidAt": "2026-06-17T11:00:11.808Z",
+    "reason": "ポストなし: オリジナルポストなし",
+    "displayName": "ありす",
+    "source": "generate-outreach"
+  }
+]
