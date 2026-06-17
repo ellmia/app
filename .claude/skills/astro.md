@@ -17,4 +17,4 @@ This project uses Astro 6 (server output) with the Cloudflare adapter for Worker
 - Secrets: OPENROUTER_API_KEY and LLM_MODEL are declared in env schema as server secrets; read via `import { ... } from 'astro:env/server'`
 - For local dev, use .env ; for prod use `wrangler secret put`
 - The persona system prompt is in `src/lib/prompts.ts` and must stay high quality and safety-focused
-- Build outputs to `dist/` ; deploy with `wrangler deploy` (worker name "chat")
+- Build outputs to `dist/` ; deploy with `wrangler deploy` (worker name "app")

@@ -40,19 +40,24 @@
 
 ### 2.3 スコープ（MVP として採択）
 - **Ultra Minimal**（ユーザーが明確に選択）
-  - フルスクリーンのチャット UI のみ
-  - ヘッダー: ロゴ（エルミア） + 「クリア」ボタン
-  - ハードコードされた高品質なシステムプロンプト
+  - フルスクリーンのチャット UI のみ（携帯特化、ライトモード）
+  - ヘッダー: ロゴ（LMIA） + 「新しい相談」ボタン
+  - UI ブランド: ユニコーン世界観（🦄、モデルごとのキャラ名表示: ジェミー・久遠 等）
+  - ハードコードされた高品質なシステムプロンプト（イケメンホスト）
   - OpenRouter によるストリーミング応答
-  - 例の質問チップ（初期表示）
+  - **1問1答**（履歴を蓄積せず単発相談で精度を優先）
+  - 回答再生成ボタン（「ねぇ、酔いすぎ！ちゃんと答えて！」）
+  - アシスタント応答のマークダウン表示（`react-markdown` + `remark-gfm`）
+  - 例の質問チップ 30 件（初期表示）
+  - Google Analytics（`Layout.astro`、測定 ID: `G-40LT2E7S01`）
   - 免責事項の明記（UI とプロンプトの両方）
 
 **非採用（MVP では入れない）**:
 - 事前プロフィール入力フォーム（経験年数・目標など）
 - チャット履歴の永続化（localStorage すら最小限）
 - ユーザーアカウント・ログイン
-- 複数ペルソナ切り替え
-- 画像生成・リッチなマークダウン表示（react-markdown などは不使用）
+- 複数ペルソナ切り替え（UI 上の手動切替）
+- 画像生成
 
 ### 2.4 LLM / OpenRouter 関連
 - **APIキー運用**: 開発者（ユーザー）が取得した OpenRouter の無料枠/クレジットを使用
@@ -60,7 +65,7 @@
   - 無料枠保護のため **IPベースのレートリミット** を必須で実装
 - **モデル設定**（grill-me で採択）: 
   - ローカル `.env` と本番で `LLM_MODEL=openrouter/free` を統一して使用（OpenRouter の無料モデル自動選択）
-  - デフォルト（未設定時）: `google/gemini-2.0-flash-exp:free`
+  - デフォルト（未設定時）: `openrouter/free`（`astro.config.mjs` の env schema でも同値）
   - 本番設定方法: `npx wrangler secret put LLM_MODEL`（値に `openrouter/free` を入力）
   - ローカル: `.env` に `LLM_MODEL=openrouter/free` と記載
 - ストリーミング: 必須（レスポンシブなチャット体験のため）
@@ -89,16 +94,22 @@
     - `LLM_MODEL=openrouter/free` を本番でも使用する場合: `npx wrangler secret put LLM_MODEL`（値に `openrouter/free` を入力）
 - 免責: UI とシステムプロンプトの両方で明確に記載
 
-## 3. 現在の実装スコープ（2026-06-14 時点）
+## 3. 現在の実装スコープ（2026-06-17 時点）
 
 | 項目                  | 状態     | 備考 |
 |-----------------------|----------|------|
-| フルスクリーンチャット | 実装済み | `Chat.tsx` |
+| フルスクリーンチャット | 実装済み | `Chat.tsx`、ライトモード・携帯特化 |
 | ストリーミング          | 実装済み | OpenRouter SSE pass-through |
+| 1問1答 + 回答再生成     | 実装済み | 履歴非蓄積で精度優先 |
+| マークダウン表示        | 実装済み | `react-markdown` + `remark-gfm` |
+| ホスト名表示            | 実装済み | `X-Host-Name` ヘッダー → ジェミー等 |
+| ユニコーン UI ブランド   | 実装済み | 🦄、免責コピー、再生成ボタン |
 | イケメンホスト プロンプト | 実装済み | `src/lib/prompts.ts` に詳細記述 |
-| IP レートリミット       | 実装済み | `src/lib/rateLimit.ts` |
-| プロジェクト規約        | 実装済み | AGENTS.md, check 必須など |
-| デプロイ（Workers）     | 可能     | `npm run deploy` |
+| 例示質問チップ          | 実装済み | 30 件（GTM で 8 件への絞り込みは未着手） |
+| Google Analytics      | 実装済み | `Layout.astro`（gtag） |
+| IP レートリミット       | 実装済み | `src/lib/rateLimit.ts`（12 msg / 5 min） |
+| プロジェクト規約        | 実装済み | `AGENTS.md`、check 必須など |
+| デプロイ（Workers）     | 可能     | `npm run deploy` → `app.lmia.workers.dev` |
 
 ## 4. 非機能要件（採択）
 

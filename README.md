@@ -1,12 +1,13 @@
 # エルミア
 
-イケメンホストによるソープ嬢（風俗嬢）向けの実践コンサルタントチャット。
+ソープ嬢（風俗嬢）向けの実践コンサルタントチャット。
 
 **Astro 6 + React Islands + Tailwind 4 + Cloudflare Workers + OpenRouter ストリーミングチャット**
 
-- ペルソナ: ジェントルで少しチャーミングな「イケメンホスト」。タメ口ベースだがケアと敬意を忘れない。
-- 目的: 集客・接客テクニック・安全管理・単価アップ・メンタル・ビジネス判断などのリアルなアドバイスを、無料枠OpenRouter経由で低コストに提供。
-- 最小構成（MVP）: フルスクリーンチャットUI + 即時ストリーミング + ハードコードされた高品質システムプロンプト + クリア機能。
+- **UI ブランド**: ユニコーン世界観（🦄）。モデルごとにジェミー・久遠などのキャラが応答。
+- **コンサル内容**: `prompts.ts` のイケメンホスト SYSTEM_PROMPT（タメ口ベース、ケアと敬意を忘れない）。
+- 目的: 集客・接客テクニック・安全管理・単価アップ・メンタル・ビジネス判断などのリアルなアドバイスを、無料枠 OpenRouter 経由で低コストに提供。
+- **MVP**: フルスクリーンチャット UI + ストリーミング + 1問1答 + 回答再生成 + マークダウン表示 + 例示質問チップ + 新しい相談（クリア）。
 
 ## 技術スタック（既存プロジェクト完全準拠）
 
@@ -15,6 +16,7 @@
 - React 19 Islands (client:only="react")
 - Tailwind CSS 4 (@tailwindcss/vite)
 - TypeScript strict + `@/*` alias
+- react-markdown + remark-gfm（アシスタント応答の表示）
 - OpenRouter (`/api/chat` でプロキシ + SSE stream pass-through)
 
 デプロイ: `wrangler deploy` → `https://app.lmia.workers.dev`
@@ -43,21 +45,19 @@ npx wrangler secret put LLM_MODEL
 ```
 
 設定後、必ず再デプロイしてください：
+
 ```bash
 npm run deploy
 ```
 
-デプロイ:
-```bash
-npm run deploy
-```
 （内部で `astro check && astro build && wrangler deploy` が走る）
 
-ローカル開発で .env にキーを置いて `npm run dev` すれば即チャット可能（Workers ランタイムの挙動は `npm run preview` で近い）。
+ローカル開発で `.env` にキーを置いて `npm run dev` すれば即チャット可能（Workers ランタイムの挙動は `npm run preview` で近い）。
 
 ## コーディング規約
 
 ai プロジェクトに完全準拠:
+
 - 変更後は必ず `npm run check`
 - `any` 禁止、全て型付け
 - API エラーは常に `{ error: string }`
@@ -71,13 +71,14 @@ ai プロジェクトに完全準拠:
 
 ```
 src/
-  pages/index.astro          # 超ミニマルなチャット専用シェル
-  pages/api/chat.ts          # プロキシ + レートリミット + ストリーム
-  components/islands/Chat.tsx # 状態管理 + SSE パーサ + UI
+  layouts/Layout.astro       # HTML シェル + メタタグ + Google Analytics
+  pages/index.astro          # チャット専用シェル
+  pages/api/chat.ts          # プロキシ + レートリミット + ストリーム + ホスト名ヘッダー
+  components/islands/Chat.tsx  # 状態管理 + SSE パーサ + 1問1答 UI
   lib/prompts.ts             # イケメンホスト SYSTEM_PROMPT（最重要）
   lib/rateLimit.ts
   lib/api-response.ts
-  styles/global.css          # ライトモード ChatGPT風（携帯特化）
+  styles/global.css          # ライトモード ChatGPT 風（携帯特化、max-width 440px）
 ```
 
 ## 免責（UI + プロンプト両方に明記）
@@ -90,4 +91,4 @@ src/
 
 ---
 
-This project follows the exact conventions of the sibling `ai` (Astro 6 + CF) and `paperlevels` (Workers + server output + API routes) projects in the same workspace.ut + API routes) projects in the same workspace.
+This project follows the exact conventions of the sibling `ai` (Astro 6 + CF) and `paperlevels` (Workers + server output + API routes) projects in the same workspace.

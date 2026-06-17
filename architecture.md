@@ -2,7 +2,7 @@
 
 ## Overview
 
-エルミア (Ellmia) is a minimal, production-focused chat Web UI where an "イケメンホスト" (handsome host) persona acts as a practical consultant for ソープ嬢 (soapland workers). It provides real-world advice on client acquisition, pricing, safety, mental health, and business decisions using streaming LLM responses via OpenRouter.
+エルミア (Ellmia) is a minimal, production-focused chat Web UI for ソープ嬢 (soapland workers). The UI uses a playful unicorn brand (🦄) with per-model character names (ジェミー, 久遠, etc.), while the consultant tone and expertise come from a hardcoded イケメンホスト SYSTEM_PROMPT. It provides real-world advice on client acquisition, pricing, safety, mental health, and business decisions using streaming LLM responses via OpenRouter.
 
 The project follows the exact multi-agent coding and project conventions used across the workspace (Astro 6 + Cloudflare Workers pattern from `ai` and `paperlevels`).
 
@@ -12,9 +12,11 @@ The project follows the exact multi-agent coding and project conventions used ac
 |-------|------------|
 | Framework | Astro 6 (output: "server") |
 | UI | React 19 Islands (client:only="react") + Tailwind CSS 4 (@tailwindcss/vite) |
+| Markdown | react-markdown + remark-gfm (assistant responses only) |
 | Backend | Cloudflare Workers (via @astrojs/cloudflare adapter) |
 | LLM | OpenRouter (chat completions with stream:true) |
-| Persona | Hardcoded high-quality system prompt in Japanese (gentlemanly cool host tone) |
+| Persona | Hardcoded SYSTEM_PROMPT in Japanese (イケメンホスト consultant) |
+| Analytics | Google Analytics (gtag in Layout.astro) |
 | Secrets | Astro env schema + wrangler secrets (OPENROUTER_API_KEY, LLM_MODEL) |
 | Deploy | `wrangler deploy` (worker name: "app") → https://app.lmia.workers.dev |
 
@@ -22,22 +24,21 @@ The project follows the exact multi-agent coding and project conventions used ac
 
 ```
 src/
+  layouts/
+    Layout.astro                # HTML shell, meta tags, Google Analytics
   pages/
-    index.astro                 # Ultra-minimal full-screen chat shell
+    index.astro                 # Full-screen chat shell
     api/
-      chat.ts                   # OpenRouter proxy + rate limit + SSE streaming
+      chat.ts                   # OpenRouter proxy + rate limit + SSE + X-Host-Name header
   components/
     islands/
-      Chat.tsx                  # React chat state machine + SSE reader + UI
+      Chat.tsx                  # React chat state + SSE reader + 1問1答 UI + markdown
   lib/
     prompts.ts                  # SYSTEM_PROMPT (イケメンホスト consultant)
-    rateLimit.ts                # IP-based in-memory rate limiting
+    rateLimit.ts                # IP-based in-memory rate limiting (12/5min)
     api-response.ts             # Consistent { error } JSON responses
   styles/
-    global.css                  # Dark luxury host theme + chat bubble styles
-  layouts/
-    Layout.astro
-  env.d.ts                      # Type declarations for cloudflare:workers (legacy) + astro env
+    global.css                  # Light ChatGPT-style theme (mobile-first, 440px max)
 
 wrangler.toml                   # name = "app"
 astro.config.mjs                # server output + cloudflare adapter + env schema
@@ -47,26 +48,31 @@ astro.config.mjs                # server output + cloudflare adapter + env schem
 
 ### Chat Request
 1. User sends message (or clicks suggestion chip) in `Chat.tsx`
-2. POST /api/chat with messages array
+2. POST /api/chat with messages array (1問1答: typically a single user message)
 3. `src/pages/api/chat.ts`:
-   - Rate limit check (IP based, using pattern from workspace skills)
+   - Rate limit check (IP based, 12 messages per 5 minutes)
    - Injects fixed SYSTEM_PROMPT as first system message
    - Reads secrets via `astro:env/server` (OPENROUTER_API_KEY + optional LLM_MODEL)
-   - Fetches OpenRouter with stream: true, proper headers (Referer, X-Title)
-   - Passes the SSE response body directly to client
-4. Client parses `data: {...}` chunks, accumulates `delta.content`, updates UI live
+   - Maps model to in-character host name (ジェミー, 久遠, RYOMA, etc.)
+   - Fetches OpenRouter with stream: true, proper headers (Referer, X-Title: エルミア)
+   - Passes the SSE response body directly to client with `X-Host-Name` header
+4. Client parses `data: {...}` chunks, accumulates `delta.content`, renders markdown, shows host signature
+
+### Regenerate
+- User can re-run the last question without history accumulation ("ねぇ、酔いすぎ！ちゃんと答えて！")
+- Resets to single-turn mode for accuracy
 
 ### Secrets & Config
 - Local: `.env` (loaded by Astro/Vite)
 - Production: `wrangler secret put OPENROUTER_API_KEY` and `LLM_MODEL` (value `openrouter/free` to match local)
-- Model fallback: `google/gemini-2.0-flash-exp:free`
-- Referer set to the production domain for OpenRouter tracking / free tier
+- Model fallback: `openrouter/free` (env schema default and code fallback)
+- Referer set via `PUBLIC_SITE_URL` or `https://app.lmia.workers.dev`
 
 ## Safety & Persona
 - The consultant must prioritize safety, consent, mental health, and legal boundaries.
 - Strong refusals for illegal/dangerous requests.
 - Realistic, actionable advice with specific next steps.
-- Tone: respectful タメ口 mix with care (gentlemanly cool host).
+- Tone: respectful タメ口 mix with care (イケメンホスト in prompt; unicorn characters in UI).
 
 ## Deployment
 - `npm run deploy` = check + build + wrangler deploy
@@ -85,4 +91,4 @@ astro.config.mjs                # server output + cloudflare adapter + env schem
 - No persistent chat history across devices
 - No user accounts or auth
 - No pre-chat profile form (ultra-minimal scope chosen via requirements)
-- Keep dependencies minimal (no extra markdown libs etc.)
+- No server-side message storage
