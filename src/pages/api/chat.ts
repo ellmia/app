@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { z } from 'zod';
 import { jsonResponse } from '@/lib/api-response';
 import { checkRateLimit, getClientIp } from '@/lib/rateLimit';
-import { SYSTEM_PROMPT } from '@/lib/prompts';
+import { SYSTEM_PROMPT } from '@/lib/prompts-short';
 
 // Use Astro's env system (defined in astro.config.mjs with envField).
 // This is the recommended way when using env.schema + Cloudflare adapter.
@@ -49,13 +49,12 @@ function getHostDisplayName(model: string): string {
   if (m.includes('llama')) {
     return 'RYOMA';
   }
-  // openrouter/free often falls back to Gemini-class free models
-  if (m.includes('openrouter/free') || m.includes('/free')) {
-    return 'ジェミー';
+  if (m.includes('openrouter/free')) {
+    return '開斗';
   }
 
   // Fallback keeps the persona
-  return 'エルミア';
+  return m;
 }
 
 /**
